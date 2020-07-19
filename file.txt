@@ -1,0 +1,1 @@
+This is a file on disk mounted inside the WASI sandboxed at /sandbox. It can be read, modified, or even deleted by the process running inside the module.

@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "asbuild": "asc index.ts -b build/as-wasi-example.wasm --use abort=wasi_abort"
+    },
+    "dependencies": {
+        "as-wasi": "0.0.1",
+        "assemblyscript": "^0.14.0"
+    }
+}
